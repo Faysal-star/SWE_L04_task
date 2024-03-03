@@ -30,7 +30,7 @@ class CityListTest {
     }
 
     @Test
-    public void testCoune(){
+    public void testCount(){
         cityList.add(city1);
         cityList.add(city2);
         assertEquals(2, cityList.count());
